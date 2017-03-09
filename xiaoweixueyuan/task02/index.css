@@ -112,6 +112,9 @@ body{
     padding-left: 6px;
     color: #6c6c6c;
 }
+.sidebar .left-info{
+    vertical-align: top;
+}
 .sidebar .info{
     width: 500px;
     height: 100px;
