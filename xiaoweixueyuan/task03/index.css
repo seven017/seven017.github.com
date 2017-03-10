@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+.main{
+    border: 1px solid #999;
+    background: #eee;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+}
+.left,
+.right,
+.mid{
+    border: 1px solid #999;
+    background: #fff;
+}
+.left,
+.mid{
+    padding: 20px;
+}
+.mid{
+    margin-left: 222px;
+    margin-right: 142px;
+}
+.left{
+    width: 160px;
+    float: left;
+}
+.left .info{
+    float: right;
+}
+.right{
+    width: 118px;
+    float: right;
+}
+.img{
+    border: 1px solid #999;
+}
+.right .img{
+    margin-top: 18px;
+    margin-left: 18px;
+}
+.right .img-6{
+    margin-bottom: 18px;
+}
