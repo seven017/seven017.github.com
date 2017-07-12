@@ -41,7 +41,7 @@
         (function write(){
             for(var i=0;i<filtered.length;i++){
                 var li=document.createElement('li');
-                aqi.appendChild(li);/将li元素添加到ul上/
+                aqi.appendChild(li);/*将li元素添加到ul上*/
                 li.innerHTML="第"+(i+1)+"名："+filtered[i];
             }
         })();
